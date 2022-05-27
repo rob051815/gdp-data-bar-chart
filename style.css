@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #233240;
+}
+
+.canvas {
+    background-color: #E2F9FF;
+}
+rect {
+    fill: #004E64;
+}
+rect:hover {
+    fill: #00C2F8; 
+}
+
+#tooltip {
+    color: #E2F9FF;
+}
+
+
